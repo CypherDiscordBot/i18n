@@ -1,0 +1,33 @@
+{
+  "name": "i18n",
+  "version": "1.0.0",
+  "description": "Private Locale files for Erei.",
+  "main": "./dist/index.js",
+  "typings": "./typings/index.d.ts",
+  "scripts": {
+    "build:transpile": "./node_modules/.bin/tsc",
+    "test:lint": "./node_modules/.bin/eslint . --ext .ts",
+    "test": "npm run test:lint && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EreiBot/i18n.git"
+  },
+  "author": "EreiBot",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/EreiBot/i18n/issues"
+  },
+  "homepage": "https://github.com/EreiBot/i18n#readme",
+  "dependencies": {
+    "yaml": "^1.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/yaml": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3"
+  }
+}
